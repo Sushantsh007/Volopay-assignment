@@ -1,0 +1,150 @@
+.container {
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin: 25px;
+}
+
+.header {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+
+}
+
+.right-icon {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(252, 161, 134);
+    position: relative;
+    top: 13px;
+}
+
+
+
+.categorey {
+    display: flex;
+
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.categorey p {
+    margin-top: -5px;
+    color: rgb(154, 152, 148);
+}
+
+.circle {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(154, 152, 148);
+}
+
+.body-content {
+    display: flex;
+    margin: 10px;
+    margin-top: -20px;
+    justify-content: space-between;
+
+}
+
+.content-items p {
+    color: #7b7b7b;
+    text-transform: uppercase;
+    
+    font-size: smaller;
+
+}
+
+.content-items {
+    margin-right: 25px;
+    
+}
+
+.content-items h3 {
+
+    font-weight: 500;
+    font-size: smaller;
+    margin-top: -11px
+}
+
+.green-color {
+    width: 55%;
+    height: 6px;
+    background-color: green;
+    border-radius: 2px;
+}
+
+.color-line {
+    margin-left: 10px;
+    display: flex;
+    margin-top: -5px
+}
+
+.red-color {
+    width: 35%;
+    height: 6px;
+    background-color: rgb(217, 17, 13);
+    border-radius: 3px;
+    margin-left: -2px;
+}
+
+.footer {
+    margin-top: 13px;
+}
+
+.footer-items {
+    display: flex;
+
+
+}
+
+.circular-ring {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: green;
+    position: relative;
+    top: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.circular-ring-red {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    top: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+
+}
+
+.title-name {
+    color: #7b7b7b;
+    margin-left: 5px;
+}
+
+.price {
+    margin-left: 125px;
+    font-weight: 600;
+}
+
+.new{
+    position: relative;
+    left: -13px;
+}
